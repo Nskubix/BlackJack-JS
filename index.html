@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CzarnyJacek</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h5 class="annotation hidden">PRESS R TO RESTART</h5>
+    <h1 class="playertokens">TOKENS: 50</h1>
+    <main class="pregame">
+        <h1 class="text-info">PLACE YOUR BETS</h1>
+        <button class="confirmbtn">CONFIRM BET: <span class="totalv">0</span></button>
+        <div class="bets">
+            <button class="tokensplacebet 2">
+                <img src="img/token.png" alt="" width="100px" height="100px">
+                <h2>2</h2>
+            </button>
+            <button class="tokensplacebet 5">
+                <img src="img/token.png" alt="" width="100px" height="100px">
+                <h2>5</h2>
+            </button>
+            <button class="tokensplacebet 10">
+                <img src="img/token.png" alt="" width="100px" height="100px">
+                <h2>10</h2>
+            </button>
+            <button class="tokensplacebet 20">
+                <img src="img/token.png" alt="" width="100px" height="100px">
+                <h2>20</h2>
+            </button>
+        </div>
+        
+    </main>
+    <main class="game hidden">
+        <div class="dealer">
+            <h1 class="dealer-header">DEALER</h1>
+            <section class="dealer-cards">
+                <img src="img/karty/back.svg" alt="" class="dealer-card" width="125px" height="250px">
+                <img src="img/karty/back.svg" alt="" class="dealer-card" width="125px" height="250px">
+                <img src="img/karty/back.svg" alt="" class="dealer-card hidden" width="125px" height="250px">
+                <img src="img/karty/back.svg" alt="" class="dealer-card hidden" width="125px" height="250px">
+                <img src="img/karty/back.svg" alt="" class="dealer-card hidden" width="125px" height="250px">
+                <img src="img/karty/back.svg" alt="" class="dealer-card hidden" width="125px" height="250px">
+            </section>
+        </div>
+        <div class="player">
+            <button class="btn hit">HIT</button>
+            <section class="player-cardsheader">
+                <section class="player-cards">
+                    <img src="img/karty/back.svg" alt="" class="player-card" width="125px" height="250px">
+                    <img src="img/karty/back.svg" alt="" class="player-card" width="125px" height="250px">
+                    <img src="img/karty/back.svg" alt="" class="player-card hidden" width="125px" height="250px">
+                    <img src="img/karty/back.svg" alt="" class="player-card hidden" width="125px" height="250px">
+                    <img src="img/karty/back.svg" alt="" class="player-card hidden" width="125px" height="250px">
+                    <img src="img/karty/back.svg" alt="" class="player-card hidden" width="125px" height="250px">
+                </section>
+                <h1 class="player-header">PLAYER</h1>
+            </section>
+            <button class="btn stand">STAND</button>            
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
